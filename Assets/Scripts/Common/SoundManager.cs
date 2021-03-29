@@ -20,7 +20,7 @@ public class SoundManager : MonoSingleton<SoundManager>
         audioSourceSE = gameObject.AddComponent<AudioSource>() as AudioSource;
         audioSourceBGM = gameObject.AddComponent<AudioSource>() as AudioSource;
         audioClips[(int)eSound.Test01] = Resources.Load<AudioClip>("Sounds/test01");
-        audioClips[(int)eSound.Test01] = Resources.Load<AudioClip>("Sounds/test02");
+        audioClips[(int)eSound.Test02] = Resources.Load<AudioClip>("Sounds/test02");
     }
 
     public void PlaySoundEffect(eSound index)
