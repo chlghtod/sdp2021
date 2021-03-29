@@ -25,6 +25,7 @@ public class SoundManager : MonoSingleton<SoundManager>
 
     public void PlaySoundEffect(eSound index)
     {
+        Debug.Log("PlaySoundEffect : "+index);
         audioSourceSE.PlayOneShot(audioClips[(int)index]);
     }
 

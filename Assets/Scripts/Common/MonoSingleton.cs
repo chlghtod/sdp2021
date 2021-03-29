@@ -23,7 +23,6 @@ public class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 					_instance = newSingleton.AddComponent<T>();
 					newSingleton.name = typeof(T).ToString();
 				}
-				Debug.Log(_instance);
 				DontDestroyOnLoad(_instance);
 			}
 			return _instance;
