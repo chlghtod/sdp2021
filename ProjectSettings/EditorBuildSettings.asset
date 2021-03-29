@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: "Assets/Scenes/\uAD8C\uC624\uC5F0Scene.unity"
+    path: Assets/Scenes/GG151004Scene.unity
     guid: 5553f50353acd204cb02b50f3ff845c2
   - enabled: 1
     path: "Assets/Scenes/\uAE40\uBBFC\uAE30Scene.unity"
@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uC1A1\uB85C\uBBFCScene.unity"
     guid: 65450e4986269fa46bbefddd902e4224
   - enabled: 1
-    path: "Assets/Scenes/\uC6B0\uC9C4\uC601Scene.unity"
+    path: Assets/Scenes/GG161007Scene.unity
     guid: 814dd294b50f31547b33b10c1d832704
   - enabled: 1
     path: "Assets/Scenes/\uC774\uBBFC\uC6B1Scene.unity"
