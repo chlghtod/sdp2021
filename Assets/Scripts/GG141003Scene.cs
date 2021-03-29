@@ -19,7 +19,7 @@ public class GG141003Scene : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SoundManager.Instance.PlaySoundEffect(SoundManager.eSound.Test01);
+            SoundManager.Instance.PlaySoundEffect(SoundManager.eSound.Test02);
         }
     }
 }
