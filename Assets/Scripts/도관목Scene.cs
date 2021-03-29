@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class µµ°ü¸ñScene : MonoBehaviour
+public class ë„ê´€ëª©Scene : MonoBehaviour
 {
     void Update()
     {
