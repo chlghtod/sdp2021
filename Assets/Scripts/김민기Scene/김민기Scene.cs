@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class 도관목Scene : MonoBehaviour
+public class 김민기Scene : MonoBehaviour
 {
     void Update()
     {
