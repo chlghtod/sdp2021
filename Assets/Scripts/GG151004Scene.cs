@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class 권오연Scene : MonoBehaviour
+public class GG151004Scene : MonoBehaviour
 {
     // Update is called once per frame
     void Update()

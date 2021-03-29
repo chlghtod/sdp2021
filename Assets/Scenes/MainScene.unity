@@ -1789,7 +1789,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\uAD8C\uC624\uC5F0Scene"
+          m_StringArgument: GG151004Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &884283224
