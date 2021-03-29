@@ -315,7 +315,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC120\uC815\uC548 Scene"
+  m_Text: "GG171003 \uC120\uC815\uC548 Scene"
 --- !u!222 &713553248
 CanvasRenderer:
   m_ObjectHideFlags: 0
