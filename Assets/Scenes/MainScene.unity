@@ -1656,7 +1656,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\uC774\uBBFC\uC6B1Scene"
+          m_StringArgument: GG151012Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &860995186
@@ -2240,7 +2240,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\uC774\uC8FC\uD654Scene"
+          m_StringArgument: GG144012_LJHScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1041730219
@@ -2851,7 +2851,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "\uC120\uC815\uC548Scene"
+          m_StringArgument: GG171003Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1444018583

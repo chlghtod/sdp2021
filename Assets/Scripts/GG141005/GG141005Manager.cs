@@ -3,31 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MWLeeScene : MonoBehaviour
+public class GG141005Manager : MonoBehaviour
 {
-    #region 변수
+    // Start is called before the first frame update
 
-    #endregion
-
-
-    #region 함수
-
-    #endregion
-
-
-    #region 실행
-
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("MainScene");            
+            SceneManager.LoadScene("MainScene");
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SoundManager.Instance.PlaySoundEffect(SoundManager.eSound.Test01);
         }
     }
-
-    #endregion
 }
