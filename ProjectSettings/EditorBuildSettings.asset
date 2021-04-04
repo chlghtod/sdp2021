@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uC774\uD638\uC6A9Scene.unity"
     guid: 46998781314ad8c478d0aee1e46ee335
   - enabled: 1
-    path: "Assets/Scenes/\uD0C1\uB3D9\uC6B1Scene.unity"
+    path: Assets/Scenes/GG181012 Scene.unity
     guid: cbb84c8bf2cd9d84da2c4febab9dbdf0
   - enabled: 1
     path: Assets/Scenes/GG141003Scene.unity
