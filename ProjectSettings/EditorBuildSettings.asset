@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uAE40\uC601\uBBFCScene.unity"
     guid: 01108a917ae34184a92a4cb0f9bae627
   - enabled: 1
-    path: "Assets/Scenes/\uAE40\uCC3D\uB355Scene.unity"
-    guid: 00503d9cf499e5b46b15439572e81c17
-  - enabled: 1
     path: "Assets/Scenes/\uB3C4\uAD00\uBAA9Scene.unity"
     guid: 2d1f1c207582426438ff8e9d922854f5
   - enabled: 1
@@ -33,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GG171003Scene.unity
     guid: 5aa346cca07e9294bbc7d6e63b9562c4
   - enabled: 1
-    path: "Assets/Scenes/\uC1A1\uB85C\uBBFCScene.unity"
+    path: Assets/Scenes/GG161006Scene.unity
     guid: 65450e4986269fa46bbefddd902e4224
   - enabled: 1
     path: Assets/Scenes/GG161007Scene.unity
@@ -45,7 +42,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uC774\uC2DC\uC628Scene.unity"
     guid: 8083e943ec279eb43b97f52b1619fa8a
   - enabled: 1
-    path: "Assets/Scenes/\uC774\uC8FC\uD654Scene.unity"
+    path: Assets/Scenes/GG144012_LJHScene.unity
     guid: f43ce8ccd93107940b7c39fa76a34013
   - enabled: 1
     path: "Assets/Scenes/\uC774\uD638\uC6A9Scene.unity"
@@ -53,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uD0C1\uB3D9\uC6B1Scene.unity"
     guid: cbb84c8bf2cd9d84da2c4febab9dbdf0
+  - enabled: 1
+    path: Assets/Scenes/GG141003Scene.unity
+    guid: 00503d9cf499e5b46b15439572e81c17
   m_configObjects: {}

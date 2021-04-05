@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class 도관목Scene : MonoBehaviour
+public class GG141003Scene : MonoBehaviour
 {
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -13,7 +19,7 @@ public class 도관목Scene : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SoundManager.Instance.PlaySoundEffect(SoundManager.eSound.Test01);
+            SoundManager.Instance.PlaySoundEffect(SoundManager.eSound.Test02);
         }
     }
 }
