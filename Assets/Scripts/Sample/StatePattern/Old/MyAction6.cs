@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum MyState {
-	STATE_STANDING,
-	STATE_JUMPING,
-	STATE_DUCKING,
-	STATE_DIVING
-}
+//public enum MyState {
+//	STATE_STANDING,
+//	STATE_JUMPING,
+//	STATE_DUCKING,
+//	STATE_DIVING
+//}
 
 public class MyAction6 : MonoBehaviour {
 
@@ -22,94 +22,94 @@ public class MyAction6 : MonoBehaviour {
 
     void Update()
     {
-		switch (state) {
-		case MyState.STATE_STANDING:
-			if (Input.GetKeyDown(KeyCode.Space))
-			{
-				state = MyState.STATE_JUMPING;
-				StartCoroutine("HandleJump");
-			} else if (Input.GetKeyDown(KeyCode.DownArrow))
-			{
-				state = MyState.STATE_DUCKING;
-				StartCoroutine("HandleDown");
-			}
-			break;
-		case MyState.STATE_JUMPING:
-			if (Input.GetKeyDown(KeyCode.DownArrow))
-			{
-				state = MyState.STATE_DIVING;
-				StartCoroutine("HandleAttack");
-			}
-			break;
-		case MyState.STATE_DUCKING:
-			if (Input.GetKeyUp(KeyCode.DownArrow))
-			{
-				state = MyState.STATE_STANDING;
-				StartCoroutine("HandleStand");
-			}
-			break;
-		default:
-			break;
-		}
-    }
+	//	switch (state) {
+	//	case MyState.STATE_STANDING:
+	//		if (Input.GetKeyDown(KeyCode.Space))
+	//		{
+	//			state = MyState.STATE_JUMPING;
+	//			StartCoroutine("HandleJump");
+	//		} else if (Input.GetKeyDown(KeyCode.DownArrow))
+	//		{
+	//			state = MyState.STATE_DUCKING;
+	//			StartCoroutine("HandleDown");
+	//		}
+	//		break;
+	//	case MyState.STATE_JUMPING:
+	//		if (Input.GetKeyDown(KeyCode.DownArrow))
+	//		{
+	//			state = MyState.STATE_DIVING;
+	//			StartCoroutine("HandleAttack");
+	//		}
+	//		break;
+	//	case MyState.STATE_DUCKING:
+	//		if (Input.GetKeyUp(KeyCode.DownArrow))
+	//		{
+	//			state = MyState.STATE_STANDING;
+	//			StartCoroutine("HandleStand");
+	//		}
+	//		break;
+	//	default:
+	//		break;
+	//	}
+ //   }
 
-    IEnumerator HandleJump()
-    {
-        gravity = 0.7f;
+ //   IEnumerator HandleJump()
+ //   {
+ //       gravity = 0.7f;
 
-        while (true)
-        {
-			if (state == MyState.STATE_DIVING) {
-				break;
-			}
+ //       while (true)
+ //       {
+	//		if (state == MyState.STATE_DIVING) {
+	//			break;
+	//		}
 
-            velocity.y = velocity.y + gravity;
+ //           velocity.y = velocity.y + gravity;
 
-            transform.position = velocity;
+ //           transform.position = velocity;
 
-            if (velocity.y < 1.0f)
-            {
-                break;
-            }
+ //           if (velocity.y < 1.0f)
+ //           {
+ //               break;
+ //           }
 
-            gravity = gravity - 0.1f;
+ //           gravity = gravity - 0.1f;
 
-            yield return new WaitForSeconds(0.05f);
-        }
+ //           yield return new WaitForSeconds(0.05f);
+ //       }
 
-		gravity = 0.0f;
-		velocity.y = 1.0f;
-		transform.position = velocity;
-		state = MyState.STATE_STANDING;
+	//	gravity = 0.0f;
+	//	velocity.y = 1.0f;
+	//	transform.position = velocity;
+	//	state = MyState.STATE_STANDING;
 
-		yield return null;
-    }
+	//	yield return null;
+ //   }
 
-    IEnumerator HandleDown()
-    {
-        transform.Rotate(Vector3.right * 90.0f);
-        transform.position = new Vector3(0, 0.5f, 0);
-        yield return null;
-    }
+ //   IEnumerator HandleDown()
+ //   {
+ //       transform.Rotate(Vector3.right * 90.0f);
+ //       transform.position = new Vector3(0, 0.5f, 0);
+ //       yield return null;
+ //   }
 
-    IEnumerator HandleStand()
-    {
-        transform.Rotate(Vector3.right * -90.0f);
-        transform.position = new Vector3(0, 1.0f, 0);
-        yield return null;
-    }
+ //   IEnumerator HandleStand()
+ //   {
+ //       transform.Rotate(Vector3.right * -90.0f);
+ //       transform.position = new Vector3(0, 1.0f, 0);
+ //       yield return null;
+ //   }
 
-	IEnumerator HandleAttack()
-	{
-		transform.position = new Vector3(0, 0.2f, 0);
-		yield return new WaitForSeconds(0.1f);
-		transform.position = new Vector3(0, 1.2f, 0);
-		yield return new WaitForSeconds(0.1f);
-		transform.position = new Vector3(0, 0.2f, 0);
-		yield return new WaitForSeconds(0.1f);
+	//IEnumerator HandleAttack()
+	//{
+	//	transform.position = new Vector3(0, 0.2f, 0);
+	//	yield return new WaitForSeconds(0.1f);
+	//	transform.position = new Vector3(0, 1.2f, 0);
+	//	yield return new WaitForSeconds(0.1f);
+	//	transform.position = new Vector3(0, 0.2f, 0);
+	//	yield return new WaitForSeconds(0.1f);
 
-		transform.position = new Vector3(0, 1.0f, 0);
+	//	transform.position = new Vector3(0, 1.0f, 0);
 
-		state = MyState.STATE_STANDING;
+	//	state = MyState.STATE_STANDING;
 	}
 }
